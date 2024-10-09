@@ -153,7 +153,7 @@ Source: <mysql-client Private IP>/32
 *Note: Handling security at the AWS level provides an additional layer of control, enabling more detailed access* *management without needing to alter the server itself.*
 
 
-image 
+ 
 
 # Establishing Connection
 
@@ -170,7 +170,7 @@ mysql -h <mysql-server Private IP> -u remote_user -p
 
 
 
-image 
+ 
 
 ## Network Diagnostics: Ping and Traceroute
 
@@ -188,7 +188,7 @@ traceroute <mysql-server Private IP>
 
 
 
-image
+
 
 
 
@@ -208,7 +208,7 @@ CREATE DATABASE my_database;
 
 
 
-image 
+ 
 
 
 # My Personal Experience and what i have learnt so far 
