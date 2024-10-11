@@ -166,7 +166,10 @@ mysql -h <mysql-server Private IP> -u remote_user -p
 ```
 + Entered the password when prompted and successfully connected to the MySQL server running on mysql-server.
 
-*Note: This step was crucial to the success of my setup. Properly configuring the security group was essential for everything to function correctly.*
+  ![image](https://github.com/user-attachments/assets/5ce23081-0744-4a8e-8ef8-c4b36322aeba)
+
+
+*Note: This step was crucial to the success of my setup. Properly configuring the security group was essential for everything to function correctly. Also, i made a mistake of entering the wrong password this was a set back to me but i qickly realise that the password was wrong and made the corrections.*
 
 
 
@@ -179,11 +182,16 @@ To test the network connectivity between the instances, I used the ping command:
 ```
 ping <mysql-server Private IP>
 ```
+![image](https://github.com/user-attachments/assets/8b1d5851-ed66-425b-bd9a-7d935ddd26a8)
+
+
 + Traceroute
 For a detailed path analysis, I used traceroute:
 ```
 traceroute <mysql-server Private IP>
 ```
+![image](https://github.com/user-attachments/assets/54264467-9a69-4fab-ae03-e6df85b1dfba)
+
 *Personal Note: Both ping and traceroute were useful in troubleshooting connectivity problems, confirming that the* * mysql-client could connect with the mysql-server on the internal network *
 
 
@@ -208,6 +216,7 @@ CREATE DATABASE my_database;
 
 
 
+![image](https://github.com/user-attachments/assets/9f90b0b5-898b-4ecc-85c9-b56fb09a1a7a)
  
 
 
